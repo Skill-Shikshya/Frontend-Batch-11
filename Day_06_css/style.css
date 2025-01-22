@@ -1,0 +1,39 @@
+p {
+  font-size: xx-large;
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 900;
+  opacity: 0.8;
+  text-align: end;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.parent {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(208, 10, 0);
+}
+.child {
+  padding: 40px;
+  margin: 10px;
+  background-color: aqua;
+}
+.subchild {
+  height: 250px;
+
+  width: 150px;
+  padding: 20px;
+  margin-left: 12px;
+  background-color: #000000;
+  opacity: 1;
+  color: white;
+  overflow: hidden;
+
+  /* box-sizing: border-box; */
+}
+img {
+  opacity: 0.5;
+}
