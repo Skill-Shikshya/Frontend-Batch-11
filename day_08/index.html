@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid in css</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto au;
+      }
+      header {
+        background-color: chocolate;
+        grid-column: 1/7;
+        min-height: 100px;
+      }
+
+      nav {
+        background-color: cornflowerblue;
+        grid-column: 1/2;
+        height: 300px;
+      }
+
+      main {
+        background-color: cornsilk;
+        grid-column: 2/5;
+        height: 150px;
+      }
+      aside {
+        background-color: aqua;
+        grid-column: 5/7;
+      }
+      footer {
+        background-color: burlywood;
+        grid-column: 1/7;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Today Topic</h1>
+    <p>Create a simple card using flex</p>
+    <h2>float</h2>
+    <h2>poition:Relative,absolute,fixed,sticky</h2>
+    <p>Grid in css</p>
+    <!-- float -->
+    <!-- <div class="container">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/PBHS-facade.jpg/1024px-PBHS-facade.jpg"
+        alt=""
+        class="img1"
+      />
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/PBHS-facade.jpg/1024px-PBHS-facade.jpg"
+        alt=""
+        class="img2"
+      />
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, ad, nobis
+        sequi aspernatur dolorem temporibus placeat perferendis vitae,
+        asperiores veritatis atque sunt eos dignissimos id architecto ullam.
+        Doloremque qui minus voluptas delectus ad fugiat! Ad voluptatum ut
+        assumenda, cum eos temporibus. Excepturi non provident quidem aspernatur
+        eos reprehenderit officia suscipit enim dicta temporibus id ducimus,
+        impedit qui atque saepe eligendi maiores expedita neque minima
+        perferendis repellendus a accusamus cum odit! Vitae suscipit, odit at
+        fuga, amet impedit voluptates eaque aperiam ea error optio officiis,
+        quae aspernatur perspiciatis. Dolorem architecto voluptatem et earum
+        obcaecati, praesentium autem iste veritatis voluptatum atque
+        reprehenderit? Maxime delectus ducimus obcaecati earum illo officiis et
+        temporibus omnis laudantium culpa quaerat fugiat impedit doloremque qui
+        eos perspiciatis, adipisci placeat magni iste, consequuntur dicta
+        consectetur porro ullam cum. Commodi ad suscipit quia, repudiandae porro
+        vitae non dolor id impedit cum excepturi libero doloribus nulla laborum
+        fugiat consequatur enim quasi ullam nesciunt, eos odit facilis. Vel
+        obcaecati labore corporis ipsam non quas laudantium culpa, amet ratione
+        facilis voluptate illum dolorum, nihil, omnis debitis. Voluptatum unde
+        laudantium tempora harum, magni maiores qui at repellat id impedit ipsa
+        eum dicta. Necessitatibus nisi, veritatis eaque aut ipsum sapiente esse,
+        aperiam praesentium hic quisquam magni? Ipsum voluptatem, inventore
+        dolorum consectetur rem eaque placeat aspernatur, ipsam cum delectus
+        consequuntur eum eius sed quo quibusdam pariatur consequatur odio porro.
+        Voluptas excepturi veritatis laboriosam. Velit pariatur laborum
+        asperiores distinctio perferendis accusamus ea fugit illum architecto
+        similique, animi amet doloribus voluptatibus quam, fuga error quod,
+        magnam cum eveniet repudiandae consequuntur! Accusamus deleniti sapiente
+        libero debitis rem, at quisquam ipsa hic mollitia blanditiis dolores
+        voluptates quos iure dolore voluptatem sint sed laudantium! Rem ex
+        cumque, exercitationem tempore voluptatibus officia veniam autem
+        sapiente? Illum cupiditate qui vero, natus repellat ipsam, deleniti rem
+        assumenda aut non placeat quam nam ducimus magni adipisci exercitationem
+        tenetur esse numquam fugit quas temporibus laboriosam commodi
+        dignissimos? Molestiae voluptate id, ab voluptas ipsam vitae obcaecati
+        placeat iste impedit temporibus officiis aliquid autem iusto illum culpa
+        commodi odio at facilis repudiandae quod delectus! Perferendis
+        dignissimos doloribus quas perspiciatis asperiores, earum rem facilis
+        nulla esse ipsum animi unde modi odio aliquam eos totam debitis
+        consequuntur aperiam nam quis impedit temporibus alias excepturi.
+        Molestiae similique, pariatur non, veniam beatae facere eum modi ullam
+        voluptatibus autem quaerat quo eligendi soluta commodi. Officia
+        laboriosam reprehenderit aliquid provident. Quisquam placeat molestias
+        nihil dicta blanditiis quidem esse recusandae iste, temporibus libero
+        sunt pariatur! Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        Eligendi fugiat consectetur tempora unde nihil rerum debitis similique
+        minima, quam neque omnis, veniam voluptatem laborum ipsam error animi?
+        Quos labore deserunt fugiat maxime modi vitae expedita voluptate!
+        Molestias, totam tenetur quia aut beatae eligendi soluta quas.
+        Voluptatem eos neque saepe pariatur nihil natus reiciendis quam
+        voluptatum! Quidem non maiores sint? Aspernatur neque vitae, tenetur
+        saepe nihil possimus quod dicta repudiandae. Et eligendi autem totam,
+        nesciunt ab omnis harum sunt eum debitis nulla quaerat assumenda porro
+        praesentium consectetur. Quas cumque minus magni debitis eos laborum
+        consectetur blanditiis delectus non voluptates rem amet, voluptate ipsa
+        harum recusandae natus neque ipsam necessitatibus omnis ratione sapiente
+        facere voluptas placeat. Possimus magnam modi corporis? Laboriosam
+        facilis at repudiandae nobis, eligendi quod officiis consequuntur illum,
+        similique fuga rerum a laudantium, quis ducimus molestiae rem voluptates
+        repellendus ullam quidem quae? Voluptas inventore tempora deleniti
+        aperiam excepturi, vel ut repellat sunt sequi ipsa cupiditate molestias,
+        qui, nemo quae nobis cumque aliquam fugiat expedita distinctio ad. Sed
+        laudantium a sequi, quam iusto ut possimus illum explicabo architecto
+        minima maiores tenetur asperiores dicta sapiente velit nemo obcaecati
+        autem magni nulla voluptatum. Deserunt perferendis pariatur ducimus
+        culpa ullam quod ratione aut molestias.
+      </p>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/PBHS-facade.jpg/1024px-PBHS-facade.jpg"
+        alt=""
+        class="img2"
+      />
+    </div> -->
+
+    <div class="grid-container">
+      <header>
+        <p>Header</p>
+      </header>
+      <nav>
+        <p>Menu</p>
+      </nav>
+      <main>
+        <p>Main</p>
+      </main>
+      <aside>
+        <p>Aside</p>
+      </aside>
+      <footer>
+        <p>footer</p>
+      </footer>
+    </div>
+    <!-- 
+    <div class="box">
+      <div class="child">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/PBHS-facade.jpg/1024px-PBHS-facade.jpg"
+          alt=""
+          class="img1"
+        />
+      
+      </div>
+      
+    </div> -->
+
+    <div class="main">
+      <div class="parent">
+        <div class="item1">A</div>
+        <div class="item1">B</div>
+        <div class="item1">C</div>
+        <div class="item1">D</div>
+        <div class="item1">E</div>
+        <div class="item2">F</div>
+        <div class="item2">G</div>
+        <div class="item2">H</div>
+        <div class="item2">I</div>
+      </div>
+    </div>
+  </body>
+</html>
