@@ -1,5 +1,7 @@
 import React from "react";
-import ChildComponent from "./ChildComponent";
+// import ChildComponent from "./ChildComponent";
+import Children from "./Children";
+
 const ParentComponent = () => {
   //   const name = "Rahul";
   //   const RollNo = 45;
@@ -19,7 +21,11 @@ const ParentComponent = () => {
 
   return (
     <div>
-      <ChildComponent user={user} />
+      {/* <ChildComponent user={user} /> */}
+      <Children>
+        <h2>Hello world</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </Children>
     </div>
   );
 };
