@@ -17,7 +17,7 @@ function App() {
         let result = await response.json();
         // console.log(result);
         setUsers(result);
-        filteredUser(result); // initially all data are pushed to the filtered state variable
+        setFilteredUser(result); // initially all data are pushed to the filtered state variable
       };
       fetchData();
     } catch (error) {
