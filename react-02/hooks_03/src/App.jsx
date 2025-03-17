@@ -7,7 +7,7 @@ function App() {
   const [filteredUser, setFilteredUser] = useState([]);
   const [search, setSearch] = useState("");
 
-  // console.log("users", search);
+  console.log("users", filteredUser);
 
   useEffect(() => {
     try {
@@ -37,7 +37,6 @@ function App() {
     <>
       <div className="">
         <h1>Fetch user</h1>
-
         <input
           type="text"
           name="search"
