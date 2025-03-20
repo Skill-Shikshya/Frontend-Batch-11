@@ -1,4 +1,4 @@
-import React, { useContext, useState, useRef } from "react";
+import React, { useContext, useState } from "react";
 import UserContext from "../context/UserContext";
 const Login = () => {
   const { setUser } = useContext(UserContext);
@@ -11,14 +11,11 @@ const Login = () => {
     setUser({ userName, email });
   };
 
-  const inputRef = useRef(null);
-
   return (
     <div className="flex flex-col gap-20">
       <div className="flex gap-5 ">
         <h2>Login Form</h2>
         <input
-          ref={inputRef}
           required
           type="text"
           value={userName}
